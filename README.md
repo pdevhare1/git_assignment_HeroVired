@@ -196,13 +196,13 @@ git lfs install
    ```
    git lfs track "*.exe"
    # or track specific file:
-   git lfs track "VirtualBox-7.1.6-167084-Win.exe"
+   git lfs track "IDM.zip"
    ```
 
 3. **Add & Commit Files**
    ```
    git add .gitattributes
-   git add VirtualBox-7.1.6-167084-Win.exe
+   git add IDM.zip
    git commit -m "Added large file using Git LFS"
    git push origin lfs
    ```
